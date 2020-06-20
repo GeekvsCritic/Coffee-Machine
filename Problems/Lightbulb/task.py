@@ -4,5 +4,5 @@ class Lightbulb:
 
     # create method change_state here
     def change_state(self):
-        self.state = "on" if self.state == "on" else "off"
-        print(f"Turning the light {self.state}")
+        self.state = "on" if self.state == "off" else "off"
+        print(f'Turning the light {self.state}')
